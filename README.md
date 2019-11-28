@@ -54,7 +54,7 @@ Specific Dataset Link: https://projects.fivethirtyeight.com/soccer-api/club/spi_
 
 ### Discussion
 
-#### Unique Idea (apart from project aim) : In addition to what has been instructed, I decided to use two different visualization libraries - "matplotlib and plotly" - to test their graphs, code in general. Also it's so much fun!
+#### Unique Idea (apart from project aim): In addition to what has been instructed, I decided to use two different visualization libraries - "matplotlib and plotly" - to test their graphs, code in general. Also it's so much fun!
 
 First, I decided to go with the soccer dataset, because I thaught that it would be very great for visualizations and as I am a big football (soccer) fan, I thaught that it would a fun personal project. After selecting the dataset, I decided to work on specific features and ignore others. I also decided to visualize using a couple of libraries - so that I can compare the visualization and code required to plot. I used matplotlib and plotly to visualize. Following are some of the visualizations:
 
