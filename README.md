@@ -1,13 +1,14 @@
 The Oscars
 ==============================
 
- Great stories and great visual effects
+Great stories and great visual effects
+
+Author: Ruturaj Kiran Vaidya
 
 Project Organization
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
@@ -15,43 +16,71 @@ Project Organization
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
-
+    │   └── figures        <- Generated graphics and figures to be used in reporting
 
 --------
 
+
+
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+### Before Getting Stated
+
+If you are only interested in looking at the notebook then go to (There are notebook rendering problems in github ecosystem):
+
+https://nbviewer.jupyter.org/github/Ruturaj4/the_oscars/blob/master/notebooks/1.0-rkv-the-oscars.ipynb
+
+All the graphs are plotted using `matplotlib` and `plotly`.
+
+### Aim
+
+<ul>
+<li>Load the dataset and see how storytelling and visualization help describing the dataset and finding additional feature </li>
+<li>Build 3 or more visualizations</li>
+</ul>
+
+### Dataset
+
+I selected the soccer dataset used in previous projects, as it has a lot of features to work with and it will be great for visualizations.
+
+Dataset: https://github.com/fivethirtyeight/data/tree/master/soccer-spi
+
+Specific Dataset Link: https://projects.fivethirtyeight.com/soccer-api/club/spi_matches.csv
+
+### Discussion
+
+First, I decided to go with the soccer dataset, because I thaught that it would be very great for visualizations and as I am big football (soccer) fan, I thaught that it would a fun personal project. After selecting the dataset, I decided to work on specific features and ignore others. I also decided to visualize using a couple of libraries - so that I can compare the visualization and code required to plot. I used matplotlib and plotly to visualize. Following are some of the visualizations:
+
+Plotted using `matplotlib`:
+
+![alt text](/reports/figures/tot_teams.png)
+![alt text](/reports/figures/tot_matches.png)
+
+Plotted using `plotly`:
+
+![alt text](/reports/figures/goals.png)
+
+While, plotting these - I thought of looking at home and away win percentage, i.e. if it really matters whether you play at home or away ground. From following plot, it seems that it does matter (at certain percentage), although it is not totally impossible to win if playing away.
+
+Plotted using `plotly`:
+
+![alt text](/reports/figures/home_away.png)
+
+By comparing two different visualization libraries, I observed that plotly does give better results with less (or rather simple) code.
+
+### References
+
+I got some of the ideas from following post:
+
+<ul>
+<li>Kaggle data anlysis: https://www.kaggle.com/pavanraj159/european-football-data-analysis/notebook</li>
+</ul>
+
+### License
+
+<b>MIT</b>
