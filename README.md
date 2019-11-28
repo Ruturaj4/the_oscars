@@ -54,7 +54,7 @@ Specific Dataset Link: https://projects.fivethirtyeight.com/soccer-api/club/spi_
 
 ### Discussion
 
-First, I decided to go with the soccer dataset, because I thaught that it would be very great for visualizations and as I am big football (soccer) fan, I thaught that it would a fun personal project. After selecting the dataset, I decided to work on specific features and ignore others. I also decided to visualize using a couple of libraries - so that I can compare the visualization and code required to plot. I used matplotlib and plotly to visualize. Following are some of the visualizations:
+First, I decided to go with the soccer dataset, because I thaught that it would be very great for visualizations and as I am a big football (soccer) fan, I thaught that it would a fun personal project. After selecting the dataset, I decided to work on specific features and ignore others. I also decided to visualize using a couple of libraries - so that I can compare the visualization and code required to plot. I used matplotlib and plotly to visualize. Following are some of the visualizations:
 
 Plotted using `matplotlib`:
 
@@ -65,7 +65,7 @@ Plotted using `plotly`:
 
 ![alt text](/reports/figures/goals.png)
 
-While, plotting these - I thought of looking at home and away win percentage, i.e. if it really matters whether you play at home or away ground. From following plot, it seems that it does matter (at certain percentage), although it is not totally impossible to win if playing away.
+While, plotting these - I thought of looking at home and away win percentage, i.e. if it really matters whether you play at home or at away ground. From following plot, it seems that it does matter (at certain percentage), although it is not totally impossible to win if playing away.
 
 Plotted using `plotly`:
 
